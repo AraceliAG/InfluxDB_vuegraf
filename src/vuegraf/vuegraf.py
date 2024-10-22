@@ -298,8 +298,8 @@ try:
     historyDays = min(args.historydays, 720)
     history = historyDays > 0
     running = True
-    signal.signal(signal.SIGINT, handleExit)
-    signal.signal(signal.SIGHUP, handleExit)
+    # signal.signal(signal.SIGINT, handleExit)
+    # signal.signal(signal.SIGHUP, handleExit)
     pauseEvent = Event()
     intervalSecs = getConfigValue('updateIntervalSecs', 60)
     detailedIntervalSecs = getConfigValue('detailedIntervalSecs', 3600)
