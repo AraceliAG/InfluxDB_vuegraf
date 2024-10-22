@@ -2,48 +2,15 @@
     "influxDb": {
         "version": 2,
         "url": "http://my.influxdb.hostname:8086",
-        "org": "vuegraf",
+        "org": "SE",
         "bucket": "vuegraf",
-        "token": "<my-secret-token>"
+        "token": "d1R-CG8v8v48rWXvSW1H-xm2QjEpNPbj0IBvTSxu1dFjvPGW6mC0dgmvy8zrIDiyoOT2tkV_RGuWkPHzEQi54g=="
     },
-    "updateIntervalSecs": 60,
-    "detailedDataEnabled": true,
-    "detailedDataSecondsEnabled": true,
-    "detailedDataHoursEnabled": true,
-    "timezone": "TZ",
     "accounts": [
         {
             "name": "Primary Residence",
-            "email": "my@email.address",
-            "password": "my-emporia-password",
-            "devices": [
-                {
-                    "name": "Right Panel",
-                    "channels": [
-                        "Air Conditioner",
-                        "Furnace",
-                        "Coffee Maker",
-                        "Oven",
-                        "Pool Vacuum",
-                        "Pool Filter",
-                        "Refrigerator",
-                        "Office"
-                    ]
-                },
-                {
-                    "name": "Left Panel",
-                    "channels": [
-                        "Dryer",
-                        "Washer",
-                        "Dishwasher",
-                        "Water Heater",
-                        "Landscape Features",
-                        "Septic Pump",
-                        "Deep Freeze",
-                        "Sprinkler Pump"
-                    ]
-                }
-            ]
+            "email": "araceli.ag@solucionesenergia.com",
+            "password": "Ilecara098"
         }
     ]
 }
